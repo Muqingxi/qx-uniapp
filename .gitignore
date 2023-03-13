@@ -1,0 +1,6 @@
+__MACOSX/
+.hbuilderx/
+.vite/
+unpackage/
+node_modules/
+package-lock.json

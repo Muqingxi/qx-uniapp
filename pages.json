@@ -1,0 +1,64 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/home/example",
+			"style": {
+				"navigationBarTitleText": " "
+			}
+		},
+		{
+			"path": "pages/tools/index",
+			"style": {
+				"navigationBarTitleText": "tools"
+			}
+		},
+		{
+			"path": "pages/cd/index",
+			"style": {
+				"navigationBarTitleText": "attention"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#de7063",
+		"backgroundColor": "#f5c4bb",
+		"enablePullDownRefresh": true,
+		"backgroundTextStyle": "light"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#00a12d",
+		// "backgroundColor": "#ffe9c2",
+		// "borderStyle": "white",
+		// "position": "top", // 只能在小程序中起作用
+		"list": [
+			{
+				"text": "home",
+				"pagePath": "pages/home/index",
+				"iconPath": "static/tabs/home.png",
+				"selectedIconPath": "static/tabs/home_.png"
+			},
+			{
+				"text": "tools",
+				"pagePath": "pages/tools/index",
+				"iconPath": "static/tabs/tools.png",
+				"selectedIconPath": "static/tabs/tools_.png"
+			},
+			{
+				"text": "attention",
+				"pagePath": "pages/cd/index",
+				"iconPath": "static/tabs/cd.png",
+				"selectedIconPath": "static/tabs/cd_.png"
+			}
+		]
+	}
+}
